@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.body{
+    padding-top: 50px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: fixed;
+}
+
+.h{
+    text-align: center;
+    color: darkorange;
+    font-family: 'Algerian';
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-facebook:hover{
+    background: #0501f9;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-youtube:hover{
+    background: rgb(105, 14, 14);
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-instagram:hover{
+    background: rgb(116, 26, 58);
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa-snapchat-ghost:hover{
+    background: #c6c32c;
+  }
+  .p{
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Matura MT Script Capitals';
+    font-size: 30px;
+    color: rgb(243, 13, 13);
+  }
+  .fb{
+    font-size: 15px;
+    font-family: Forte;
+    color: rgb(3, 31, 141);
+  }
+  .yt{
+    font-size: 15px;
+    font-family: Forte;
+    color: rgb(123, 29, 29);
+  }
+  .insta{
+    font-size: 15px;
+    font-family: Forte;
+    color: rgb(23, 192, 90);
+  }
+  .snap{
+    font-size: 15px;
+    font-family: Forte;
+    color: rgb(117, 121, 11);
+  }

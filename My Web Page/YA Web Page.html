@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YA Web Page</title>
+<link rel="stylesheet" href="YA Project css.css">
+</head>
+<body style="background-image: url(https://i.pinimg.com/originals/4e/17/b6/4e17b6d7caefbcea123e37c6a6fa3624.jpg);" class="display">
+    <div class="row">
+        <ul>
+            <li><a href="About ME.html">About Me</a></li>
+            <li><a href="My Social Media.html">My Scoial Media</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    <h1 style="text-align: center;" >Yukeshwaran YA</h1>
+    </div>
+    <div class="box">
+    <h2>Welcome To My Webpage</h2></div>
+    <p class="p"> Hi Guys I m Yukeshwaran YA First I Want To Say A Glance About Me.
+     Before 2023 I Love To Play Games Life Free Fire, Call of Duty etc.
+    After I Reduce My Game Addiction In 2022 I Started To Saw Animes.
+    You Want To More about Me See About Me Section</p>
+    <p class="p">Here You Want To Login</p>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://img.freepik.com/premium-vector/man-woman-avatar-profile-male-female-icon-vector-illustration_149267-2134.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
